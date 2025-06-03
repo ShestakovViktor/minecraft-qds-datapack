@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:book"
+        },
+        "title": "Первое испытание авантюриста",
+        "description": "Beep",
+        "frame": "task",
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "always_true": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "always_true"
+        ]
+    ],
+    "parent": "example:villager_beep/greeting"
+}

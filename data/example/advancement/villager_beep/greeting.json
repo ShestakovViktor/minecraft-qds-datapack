@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:book"
+        },
+        "title": "Meet villager Beep",
+        "description": "Talk with Beep",
+        "frame": "task",
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "manual": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ],
+    "parent": "example:adventure"
+}

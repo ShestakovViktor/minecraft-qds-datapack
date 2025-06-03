@@ -1,0 +1,1 @@
+$scoreboard players set @e[type=villager, limit=1, sort=nearest] CustomId $(id)

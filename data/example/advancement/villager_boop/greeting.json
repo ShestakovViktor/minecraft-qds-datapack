@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:book"
+        },
+        "title": "Meet Boop",
+        "description": "Talk with Boop",
+        "frame": "task",
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "manual": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ],
+    "parent": "example:adventure"
+}

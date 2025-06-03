@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:book"
+        },
+        "title": "Adventure begin",
+        "description": "",
+        "background": "minecraft:block/quartz_bricks",
+        "frame": "task",
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "always_true": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "always_true"
+        ]
+    ]
+}
